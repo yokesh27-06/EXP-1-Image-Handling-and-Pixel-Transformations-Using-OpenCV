@@ -36,45 +36,41 @@ Split the image (boy.jpg) into B, G, R components and display the channels
 
   ### Ex. No. 01
 
-### **Step 1: Read and Display Image**
+### **Step 1: # Display the image using Matplotlib**
 ```python
-import cv2
-import matplotlib.pyplot as plt
-img = cv2.imread('vr46.png', cv2.IMREAD_COLOR)
-img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-plt.imshow(img_rgb, cmap='viridis')  
+plt.imshow(img_rgb, cmap='viridis')  # You can change 'viridis' to another cmap or use None for RGB images
 plt.title("Original Image")
-plt.axis('off')  
+plt.axis('off')  # Removes axis ticks and labels
 plt.show()
 ```
-### **Step 2: Draw a Line**
+### **Step 2: Image with Line**
 ```python
-line_img = cv2.line(img_rgb, (0, 0), (768, 600), (255, 0, 0), 2)
+line_img = cv2.line(img_rgb, (0, 0), (768, 600), (255, 0, 0), 2)   
 plt.imshow(line_img, cmap='viridis')  
 plt.title("Image with Line")
 plt.axis('off')  
 plt.show()
 ```
 
-### **Step 3: Draw a Circle**
+### **Step 3: Image with Circle**
 ```python
-circle_img = cv2.circle(img_rgb,(400,300),150,(255,0,0),10)
+circle_img = cv2.circle(img_rgb,(550,300),150,(255,0,0),10)  
 plt.imshow(circle_img, cmap='viridis')  
 plt.title("Image with Circle")
-plt.axis('off')  
+plt.axis('oN')  
 plt.show()
 ```
 
-### **Step 4: Draw a Rectangle**
+### **Step 4: Image with Rectangle**
 ```python
-rectangle_img = cv2.rectangle(img_rgb, (0, 0), (768, 600), (0, 0, 255), 10)
+rectangle_img = cv2.rectangle(img_rgb, (0, 0), (1020, 690), (0, 0, 255), 10)
 plt.imshow(rectangle_img, cmap='viridis')  
 plt.title("Image with Rectangle")
 plt.axis('off')  
 plt.show()
 ```
 
-### **Step 5: Add Text**
+### **Step 5: Image with text**
 ```python
 text_img = cv2.putText(img_rgb, "Yokesh", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 10)
 plt.imshow(text_img, cmap='viridis')  
@@ -82,28 +78,9 @@ plt.title("Image with Text")
 plt.axis('off')  
 plt.show()
 ```
+### **Step 6: Original RGB Image**
 
-### **Step 6: Convert RGB to HSV**
-```python
-image_hsv = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2HSV)
-plt.imshow(image_hsv)
-plt.title("HSV Image")
-plt.axis("off")
-```
-### **Step 7: Convert RGB to Gray**
-```python
-image_gray = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2GRAY)
-plt.imshow(image_gray, cmap='gray')
-plt.title("Grayscale Image")
-plt.axis("off")
-```
-### **Step 8: Convert RGB to YCrCb**
-```python
-image_ycrcb = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2YCrCb)
-plt.imshow(image_ycrcb)
-plt.title("YCrCb Image")
-plt.axis("off")
-```
+
 
 ### **Step 9: Convert HSV back to RGB**
 ```python
@@ -197,31 +174,40 @@ flipped_horizontally
 ### HSV Images
 
 <img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/69d39a4d-f618-406b-b34f-3378726886a0" />
+
 ### Grayscale Images
 
 <img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/85609053-6a71-4fc5-8cd7-95424176e0b6" />
+
 ### YCrCb Images
+
 
 <img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/af80fe64-a46c-45a3-9d01-41a9179eb78d" />
 
+### HSV to RGB Image
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/f3d045d3-5ee2-42f5-a0b5-3f76d39751b0" />
+
+### Image with 300*300 White Block
+
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/14c87925-a841-4e84-8ff4-ebf80d71ec0d" />
 
 
 
 ### Resized Image
 
-<img width="845" height="587" alt="image" src="https://github.com/user-attachments/assets/94953085-96d5-4020-9111-ba93168ff0d7" />
+<img width="493" height="409" alt="download" src="https://github.com/user-attachments/assets/a6a4670c-811c-4be4-905a-8b0cd7830c92" />
 
 
 ### Cropped ROI
 
-<img width="377" height="381" alt="image" src="https://github.com/user-attachments/assets/84ce15af-6669-46b4-995a-d64dbf814e06" />
+<img width="389" height="409" alt="download" src="https://github.com/user-attachments/assets/b731af8f-bc6b-4ee6-8c57-25e83bdc45f3" />
 
 ### Flipped Images
 
-<img width="1328" height="880" alt="image" src="https://github.com/user-attachments/assets/e39f827c-6822-4450-8672-1c810baaf2ad" />
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/e99bea5d-961b-483a-939b-27a77fd0b47c" />
 
 
-<img width="1312" height="887" alt="image" src="https://github.com/user-attachments/assets/abb8e088-29e9-4524-8ab4-24d3298d82a8" />
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/c32faf82-c46a-4a07-9311-b487ddf92028" />
 
 
 ## Result:
