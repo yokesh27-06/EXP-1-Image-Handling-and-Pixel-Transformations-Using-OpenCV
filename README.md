@@ -172,37 +172,37 @@ flipped_horizontally
 
 ## Output:
 ### Original Image
-<img width="1336" height="891" alt="image" src="https://github.com/user-attachments/assets/96bc0444-fb7a-44ee-abe5-84362da2cb20" />
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/22c95533-833f-45c2-9c84-84dd545d845e" />
 
 
 
 ### Image with Line
-<img width="1327" height="887" alt="image" src="https://github.com/user-attachments/assets/68ab07cc-6f66-45db-afd3-8d0cff191dcb" />
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/46beaba6-1e7c-4bd0-b5e3-acab78f27bf8" />
 
 
 ### Image with Circle
 
-<img width="1325" height="882" alt="image" src="https://github.com/user-attachments/assets/00636b20-d82c-4b9d-b505-c38e0f33db00" />
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/2026a3f2-beda-4a73-a902-740d05492ca1" />
 
 
 ### Image with Rectangle
 
-<img width="1340" height="897" alt="image" src="https://github.com/user-attachments/assets/af99ab34-83ea-493d-8ccd-59d89f05e694" />
+<img width="552" height="395" alt="download" src="https://github.com/user-attachments/assets/eb8fed7a-9aaa-4909-80ff-b8d5c626e408" />
 
 ### Image with Text
 
 <img width="552" height="395" alt="download" src="https://github.com/user-attachments/assets/56fbc186-3b64-4fb0-b498-5a637607d6a2" />
 
 
-### HSV, Gray and YCrCb Images
+### HSV Images
 
-<img width="1327" height="892" alt="image" src="https://github.com/user-attachments/assets/a14ca73d-209f-4d20-b049-11538501e318" />
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/69d39a4d-f618-406b-b34f-3378726886a0" />
+### Grayscale Images
 
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/85609053-6a71-4fc5-8cd7-95424176e0b6" />
+### YCrCb Images
 
-<img width="1332" height="892" alt="image" src="https://github.com/user-attachments/assets/42ed344d-a0c4-44bf-a202-e1f1802187b9" />
-
-
-<img width="1322" height="885" alt="image" src="https://github.com/user-attachments/assets/2378beb0-67a7-4ec3-a472-92a04893c57d" />
+<img width="515" height="371" alt="download" src="https://github.com/user-attachments/assets/af80fe64-a46c-45a3-9d01-41a9179eb78d" />
 
 
 
