@@ -76,7 +76,7 @@ plt.show()
 
 ### **Step 5: Add Text**
 ```python
-text_img = cv2.putText(img_rgb, "OpenCV Drawing", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 10)
+text_img = cv2.putText(img_rgb, "Yokesh", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 10)
 plt.imshow(text_img, cmap='viridis')  
 plt.title("Image with Text")
 plt.axis('off')  
@@ -191,7 +191,7 @@ flipped_horizontally
 
 ### Image with Text
 
-<img width="1336" height="891" alt="image" src="https://github.com/user-attachments/assets/5e904f70-4192-4424-8c2f-9fdaf4c153d7" />
+<img width="552" height="395" alt="download" src="https://github.com/user-attachments/assets/56fbc186-3b64-4fb0-b498-5a637607d6a2" />
 
 
 ### HSV, Gray and YCrCb Images
